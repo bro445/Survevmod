@@ -2,7 +2,7 @@
 
 A powerful cheat for survev.io & more
 
-**Version: 5.2.4** | [📋 Changelog](./CHANGELOG.md)
+**Version: 5.3.0** | [📋 Changelog](./CHANGELOG.md)
 
 ## 📥 Installation (Tampermonkey)
 
@@ -42,7 +42,7 @@ A powerful cheat for survev.io & more
 
 ## 🆕 Dernière mise à jour
 
-- esp laggy patch
+- add follow bot
 
 ---
 
