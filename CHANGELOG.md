@@ -4,6 +4,15 @@ Historique des mises à jour de SurvevHack.
 
 ---
 
+## 🚀 v5.4.0 - 11/12/2025
+
+- patch bug nametag 
+- patch bug follow bot
+- add option targetinfo
+
+---
+
+
 ## 🚀 v5.3.0 - 10/12/2025
 
 - add follow bot
