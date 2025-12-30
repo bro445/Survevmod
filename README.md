@@ -2,7 +2,7 @@
 
 A powerful cheat for survev.io & more
 
-**Version: 5.5.0** | [📋 Changelog](./CHANGELOG.md)
+**Version: 5.5.1** | [📋 Changelog](./CHANGELOG.md)
 
 ## 📥 Installation (Tampermonkey)
 
@@ -42,9 +42,7 @@ A powerful cheat for survev.io & more
 
 ## 🆕 Dernière mise à jour
 
-- add trigger bot 'buggy)
-- up to melee distance 3->5
-- patch bug settings reset to reload in the page survev.io
+- Corrections de bugs et améliorations
 
 ---
 

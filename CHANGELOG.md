@@ -4,6 +4,13 @@ Historique des mises à jour de SurvevHack.
 
 ---
 
+## 🚀 v5.5.1 - 30/12/2025
+
+- Corrections de bugs et améliorations
+
+---
+
+
 ## 🚀 v5.5.0 - 17/12/2025
 
 - add trigger bot 'buggy)
