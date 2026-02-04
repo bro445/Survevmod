@@ -7,11 +7,6 @@ This version (v4.0) introduces major core improvements, including a new build sy
 
 ## 🌟 Key Features
 
-### Reworked Core & Build System
-- **Fusion Build System**: Utilizes `Rollup` + `Terser` for aggressive minification and obfuscation.
-- **Stealth Injection**: Runs within an isolated context using Shadow DOM/Iframe injection to bypass anti-cheat checks.
-- **Developer Loader**: Restored `npm run dev` loader for rapid testing without rebuilding.
-
 ### ⚔️ Advanced Auto Melee (New in v4.0)
 - **Predictive Lock**: Analyzes enemy velocity history to predict movement and land melee hits accurately.
 - **Adaptive Range**: Automatically adjusts engagement distance based on the target's speed.
@@ -40,7 +35,7 @@ This version (v4.0) introduces major core improvements, including a new build sy
 
 ### Option 1: Userscript (Recommended)
 1. Install a userscript manager like **Tampermonkey** or **Violentmonkey**.
-2. Drag and drop the `dist/SurMinus.user.js` file into your browser extensions tab (or create a new script and paste the content).
+2. Drag and drop the `SurMinus.user.js` file into your browser extensions tab (or create a new script and paste the content).
 3. Navigate to [survev.io](https://survev.io) and play!
 
 ### Option 2: Chrome Extension
@@ -49,37 +44,6 @@ This version (v4.0) introduces major core improvements, including a new build sy
 3. Click **Load unpacked**.
 4. Select the `dist/extension` folder.
 5. Navigate to [survev.io](https://survev.io).
-
----
-
-## 💻 Development & Building
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v16+)
-- `npm`
-
-### Setup
-```bash
-# Install dependencies
-npm install
-```
-
-### Commands
-
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Starts the local dev server. Changes are reflected instantly (requires Loader script). |
-| `npm run build` | Compiles the project into `dist/` (Userscript + Extension) using Rollup & Terser. |
-| `npm run build:dev` | Compiles a non-minified version for debugging. |
-
----
-
-## 📂 Project Structure
-
-- `src/core`: Core injection, hooking, and state management logic.
-- `src/features`: Individual hack features (Aimbot, ESP, AutoHeal, etc.).
-- `src/ui`: Menu components (React-based) and styling.
-- `src/utils`: Math helpers, geometry, and constants.
 
 ---
 
